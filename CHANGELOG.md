@@ -10,6 +10,8 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
 - `modes/lenses/attachment.md` — relational patterns around closeness and distance
 - `modes/lenses/compassion.md` — self-criticism as a system, names the critic without flattering
+- `modes/lenses/motivational.md` — ambivalence about change, surfaces both sides
+- `modes/personas/mirror.md` — reflects what the user said with one minimal shift, no interpretation
 
 ## [0.1.0] — Initial release
 

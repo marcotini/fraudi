@@ -83,6 +83,7 @@ Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and
 - `dry` — observational and slightly cool. Anthropologist of self.
 - `socratic` — almost only questions. Rarely states.
 - `coach` — action-oriented. Closes most turns with a concrete next move.
+- `mirror` — reflects what you said with one small shift. No interpretation. Lets you hear yourself.
 
 **Lenses** — pick zero or one:
 - `pattern` — default. Watches for recurrence across what you say.
@@ -95,6 +96,7 @@ Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and
 - `bias` — Kahneman-flavored. Spots cognitive distortions in your reasoning about yourself.
 - `attachment` — how you relate to closeness. Strategies, not styles.
 - `compassion` — self-criticism as a system. Names the critic, doesn't flatter the user.
+- `motivational` — ambivalence about change. Surfaces both sides without picking one.
 
 All in [`modes/`](modes/).
 
