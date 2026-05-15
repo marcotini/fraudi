@@ -75,7 +75,7 @@ The skill works without any memory layer. If you want continuity — Claude open
 
 ## Modes
 
-Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and combinable.
+Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and combinable. **You don't need to pick one** — fraudi reads what you say and chooses the fit. Tell it "I had a bad day at work" and it'll pick `flint` + `pattern`. Say "part of me wants to call her, part of me doesn't" and it'll switch to `ifs`. You can override at any time ("use fraudi with slow and somatic," "switch to coach," "drop the lens").
 
 **Personas** — pick one:
 - `flint` — default. Friction, not warmth. Short. Direct. Spots patterns flat.

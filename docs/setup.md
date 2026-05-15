@@ -48,7 +48,7 @@ Use this if you already use Claude Code and want the skill to be available globa
 git clone https://github.com/marcotini/fraudi.git ~/.claude/skills/fraudi
 ```
 
-### Step 2 — Pick mode
+### Step 2 — Use it
 
 The skill auto-loads when invoked. To invoke:
 
@@ -62,13 +62,13 @@ or
 reflection mode
 ```
 
-To specify persona and lens:
+You don't have to pick a persona or lens — fraudi reads your opening message and picks what fits. If you want to override, name them explicitly:
 
 ```
-use fraudi with flint and pattern
+use fraudi with slow and ifs
 ```
 
-If you don't specify, defaults are `flint` + `pattern`.
+You can also switch mid-conversation: *"switch to coach,"* *"use the somatic lens,"* *"drop the lens."*
 
 ### Step 3 — Memory
 
