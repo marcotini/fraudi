@@ -4,7 +4,7 @@ All notable changes to this skill will be documented here.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
-## [Unreleased]
+## [0.2.0] — 2026-05-16
 
 ### Added
 
@@ -14,6 +14,12 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 - `modes/lenses/existential.md` — meaning, mortality, freedom, isolation (Yalom / Frankl frame)
 - `modes/personas/mirror.md` — reflects what the user said with one minimal shift, no interpretation
 - `modes/personas/devil.md` — argues the strongest version of the other side; opt-in only
+- Auto-selection of persona and lens from the user's opening message (SKILL.md inference cues)
+
+### Changed
+
+- SKILL.md now explicitly instructs Claude to load persona and lens files at invocation, with inference rules and silent mid-session switching
+- README and setup docs reflect that picking a persona/lens manually is optional
 
 ## [0.1.0] — Initial release
 
