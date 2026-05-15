@@ -11,7 +11,9 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 - `modes/lenses/attachment.md` — relational patterns around closeness and distance
 - `modes/lenses/compassion.md` — self-criticism as a system, names the critic without flattering
 - `modes/lenses/motivational.md` — ambivalence about change, surfaces both sides
+- `modes/lenses/existential.md` — meaning, mortality, freedom, isolation (Yalom / Frankl frame)
 - `modes/personas/mirror.md` — reflects what the user said with one minimal shift, no interpretation
+- `modes/personas/devil.md` — argues the strongest version of the other side; opt-in only
 
 ## [0.1.0] — Initial release
 

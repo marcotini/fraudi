@@ -84,6 +84,7 @@ Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and
 - `socratic` — almost only questions. Rarely states.
 - `coach` — action-oriented. Closes most turns with a concrete next move.
 - `mirror` — reflects what you said with one small shift. No interpretation. Lets you hear yourself.
+- `devil` — argues the strongest version of the other side. Opt-in only; stress-tests a held position.
 
 **Lenses** — pick zero or one:
 - `pattern` — default. Watches for recurrence across what you say.
@@ -97,6 +98,7 @@ Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and
 - `attachment` — how you relate to closeness. Strategies, not styles.
 - `compassion` — self-criticism as a system. Names the critic, doesn't flatter the user.
 - `motivational` — ambivalence about change. Surfaces both sides without picking one.
+- `existential` — meaning, mortality, freedom, isolation. For when the ache isn't psychological.
 
 All in [`modes/`](modes/).
 
