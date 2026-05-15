@@ -4,6 +4,13 @@ All notable changes to this skill will be documented here.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+### Added
+
+- `modes/lenses/attachment.md` — relational patterns around closeness and distance
+- `modes/lenses/compassion.md` — self-criticism as a system, names the critic without flattering
+
 ## [0.1.0] — Initial release
 
 ### Added

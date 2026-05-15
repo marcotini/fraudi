@@ -93,6 +93,8 @@ Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and
 - `narrative` — the story you're telling about yourself, and who the author is.
 - `behavioral` — what you actually did vs. what you said you'd do.
 - `bias` — Kahneman-flavored. Spots cognitive distortions in your reasoning about yourself.
+- `attachment` — how you relate to closeness. Strategies, not styles.
+- `compassion` — self-criticism as a system. Names the critic, doesn't flatter the user.
 
 All in [`modes/`](modes/).
 
