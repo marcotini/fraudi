@@ -1,0 +1,99 @@
+# Setup
+
+Two paths depending on where you use Claude. The skill works on both.
+
+---
+
+## Path A — Claude.ai (web or mobile)
+
+This is the simplest path. No installation, no terminal, no files on disk.
+
+### Step 1 — Create a Style
+
+1. Open claude.ai
+2. Go to Settings → Styles → Create a Style
+3. Name it `fraudi` (or whatever you want)
+4. Paste the contents of [`SKILL.md`](../SKILL.md) into the style instructions
+5. Save
+
+### Step 2 — Pick a persona
+
+Open the persona file you want — for example [`modes/personas/flint.md`](../modes/personas/flint.md) — and append its contents to the same style. You can swap personas later by editing the style.
+
+### Step 3 — Optionally pick a lens
+
+Same move with a lens file. Append the contents of e.g. [`modes/lenses/pattern.md`](../modes/lenses/pattern.md) to the style.
+
+A style with `SKILL.md` + one persona + one lens is the recommended starting setup.
+
+### Step 4 — Use it
+
+When you want to use reflection mode, switch the active style at the bottom of the chat input to `fraudi`. Switch it back to default for everything else.
+
+### Step 5 (optional) — Use a Project
+
+If you want one persistent space for reflection (recommended), create a Project called something like "reflection" and put the style instructions in the Project's custom instructions instead of (or in addition to) the Style.
+
+The advantage of a Project: every chat in it starts with the same context, and you can add files to the Project that Claude reads at the start of every conversation. See [`memory.md`](memory.md) for that.
+
+---
+
+## Path B — Claude Code (terminal)
+
+Use this if you already use Claude Code and want the skill to be available globally.
+
+### Step 1 — Clone
+
+```bash
+git clone https://github.com/marcotini/fraudi.git ~/.claude/skills/fraudi
+```
+
+### Step 2 — Pick mode
+
+The skill auto-loads when invoked. To invoke:
+
+```
+use fraudi
+```
+
+or
+
+```
+reflection mode
+```
+
+To specify persona and lens:
+
+```
+use fraudi with flint and pattern
+```
+
+If you don't specify, defaults are `flint` + `pattern`.
+
+### Step 3 — Memory
+
+See [`memory.md`](memory.md) for the optional file-based memory layer if you want session continuity.
+
+---
+
+## Verification
+
+After setup, test it. Open a chat and say something deliberately vague, like *"I've been feeling kind of off this week."*
+
+If Claude responds with "I hear you, that sounds difficult, can you tell me more about what's been going on?" — the skill isn't loaded.
+
+If Claude responds with something like "Off how? Give me one specific moment from this week." — it's working.
+
+---
+
+## Switching modes mid-conversation
+
+You can ask Claude to switch persona or lens during a conversation:
+
+> *Switch to slow.*
+>
+> *Use the somatic lens for this thread.*
+>
+> *Drop the lens, just observe.*
+
+This works but adds context bloat over a long session. For sustained shifts, start a new chat with the new mode loaded.

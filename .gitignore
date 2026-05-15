@@ -1,0 +1,15 @@
+# Personal reflection content — never commit
+sessions/*
+!sessions/.gitkeep
+profile.md
+notes/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*~
