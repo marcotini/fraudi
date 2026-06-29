@@ -54,7 +54,7 @@ If you are already doing real reflection work — with a therapist, a journal, a
 
 ### For Claude.ai (web/mobile)
 
-Upload it as a native skill at [claude.ai/customize/skills](https://claude.ai/customize/skills): download this repo as a `.zip` (**Code → Download ZIP**, or grab the attached zip from the [latest release](https://github.com/marcotini/fraudi/releases/latest)), then **Upload skill**. All personas and lenses come along, so inference works the same as in Claude Code.
+Upload it as a native skill at [claude.ai/customize/skills](https://claude.ai/customize/skills): download this repo as a `.zip` (**Code → Download ZIP** for the latest, or the pinned [v0.3.0 archive](https://github.com/marcotini/fraudi/archive/refs/tags/v0.3.0.zip)), then **Upload skill**. All personas and lenses come along, so inference works the same as in Claude Code.
 
 Prefer a hand-built Style instead? That path still works — full walkthrough in [`docs/setup.md`](docs/setup.md).
 
