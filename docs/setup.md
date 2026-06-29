@@ -101,6 +101,8 @@ If Claude responds with "I hear you, that sounds difficult, can you tell me more
 
 If Claude responds with something like "Off how? Give me one specific moment from this week." — it's working.
 
+You'll also see a status marker on the first turn — `[fraudi · flint + pattern]` or similar — telling you the skill is active and which persona + lens it inferred. The marker reappears only when the persona or lens changes; on a crisis turn it disappears entirely (Rule 0 drops the mode). If you never see a marker, the skill isn't loaded.
+
 ---
 
 ## Switching modes mid-conversation

@@ -4,6 +4,17 @@ All notable changes to this skill will be documented here.
 
 The format is loosely based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [Unreleased]
+
+### Added
+
+- Status marker: Claude opens with a compact `[fraudi · {persona} + {lens}]` tag on the first turn and again whenever the persona or lens changes, so the user can tell the skill is active and which modes were inferred (web clients give no other signal). It is a status tag, not preamble; Rule 0 (crisis) drops the mode and the marker with it.
+
+### Changed
+
+- SKILL.md mid-session switching is no longer fully silent — the switch turn now shows the status marker. Prose narration of the switch is still disallowed.
+- `tests/human-scenarios.md` Scenario 2 and 3 updated to check marker presence (on switch) and absence (in crisis)
+
 ## [0.2.0] — 2026-05-16
 
 ### Added
