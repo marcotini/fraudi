@@ -54,10 +54,9 @@ If you are already doing real reflection work — with a therapist, a journal, a
 
 ### For Claude.ai (web/mobile)
 
-1. Copy the contents of [`SKILL.md`](SKILL.md) into a new Style at claude.ai → Settings → Styles
-2. Optionally, create a Project for reflection and paste your chosen persona + lens into the Project instructions
+Upload it as a native skill at [claude.ai/customize/skills](https://claude.ai/customize/skills): download this repo as a `.zip` (**Code → Download ZIP**, or grab the attached zip from the [latest release](https://github.com/marcotini/fraudi/releases/latest)), then **Upload skill**. All personas and lenses come along, so inference works the same as in Claude Code.
 
-Full walkthrough in [`docs/setup.md`](docs/setup.md).
+Prefer a hand-built Style instead? That path still works — full walkthrough in [`docs/setup.md`](docs/setup.md).
 
 ### For Claude Code
 
@@ -101,6 +100,8 @@ Personas (how Claude sounds) and lenses (what Claude focuses on) are modular and
 - `existential` — meaning, mortality, freedom, isolation. For when the ache isn't psychological.
 
 All in [`modes/`](modes/).
+
+**How to tell it's on.** fraudi opens with a compact marker — `[fraudi · flint + pattern]` — telling you the skill is active and which persona + lens it inferred. It reappears only when the mode changes, and disappears entirely on a crisis turn (Rule 0 drops the mode). No marker at all means the skill isn't loaded.
 
 ---
 
