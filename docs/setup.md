@@ -6,7 +6,24 @@ Two paths depending on where you use Claude. The skill works on both.
 
 ## Path A — Claude.ai (web or mobile)
 
-This is the simplest path. No installation, no terminal, no files on disk.
+No terminal, no files on disk. There are two ways to do this; the first is recommended because it uses fraudi as a real skill (all personas and lenses come along, and Claude picks what fits your opening message).
+
+### Option 1 (recommended) — Upload it as a Skill
+
+Claude.ai now supports skills natively at [claude.ai/customize/skills](https://claude.ai/customize/skills) (Settings → Customize → Skills).
+
+1. Download this repository as a `.zip` (on GitHub: **Code → Download ZIP**), or zip your local clone of the `fraudi` folder.
+2. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills)
+3. Click **Upload skill** and select the `fraudi` zip
+4. Enable it
+
+That's the whole setup. Because the upload includes `SKILL.md` plus every persona and lens, fraudi reads your opening message and selects the persona+lens that fit — same behavior as Claude Code. You don't paste anything by hand.
+
+To use it, just start talking about whatever you're reflecting on. To stop, say *"switch off fraudi"* or disable the skill in settings.
+
+### Option 2 — Build it from a Style
+
+Use this if you'd rather assemble the mode by hand, or you want a single fixed persona+lens that never changes.
 
 ### Step 1 — Create a Style
 
